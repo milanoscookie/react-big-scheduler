@@ -9,19 +9,19 @@ export default {
     agendaResourceTableWidth: 160,
     agendaMaxEventWidth: 100,
 
-    dayResourceTableWidth: 160,
+    dayResourceTableWidth: 240,
     weekResourceTableWidth: 160,
     monthResourceTableWidth: 160,
     quarterResourceTableWidth: 160,
     yearResourceTableWidth: 160,
 
-    dayCellWidth: 30,
+    dayCellWidth: 5,
     weekCellWidth: 120,
     monthCellWidth: 80,
     quarterCellWidth: 80,
     yearCellWidth: 80,
 
-    dayMaxEvents: 99,
+    dayMaxEvents: 999,
     weekMaxEvents: 99,
     monthMaxEvents: 99,
     quarterMaxEvents: 99,
@@ -30,7 +30,7 @@ export default {
     eventItemHeight: 22,
     eventItemLineHeight: 24,
     dayStartFrom: 0,
-    dayStopTo: 23,
+    dayStopTo: 1439,
     defaultEventBgColor: '#80C5F6',
     selectedAreaColor: '#7EC2F3',
     nonWorkingTimeHeadColor: '#999999',
@@ -58,7 +58,7 @@ export default {
     nonAgendaDayCellHeaderFormat: 'ha',
     nonAgendaOtherCellHeaderFormat: 'ddd M/D',
 
-    minuteStep: 30,
+    minuteStep: 1,
 
     views: [
         {viewName: 'Day', viewType: ViewTypes.Day, showAgenda: false, isEventPerspective: false},
